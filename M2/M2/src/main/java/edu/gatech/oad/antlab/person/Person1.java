@@ -36,7 +36,7 @@ public class Person1 {
 	  	}
 	  	output = input.charAt(input.length()) + output;
 	  	output = input.charAt(input.length() - 1) + output;
-	  	return null;
+	  	return output;
 	}
 
 	/**
