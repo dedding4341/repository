@@ -42,6 +42,11 @@ public class Person3 {
 	 * @return the reversed string
 	 */
 	private String calc(String input) {
-	  return input.substring(1);
+		String revString = "";
+		int len = input.length();
+		for (int i = len; i > 0 ; i--) {
+				revString = revString + String.valueOf(input.charAt(i - 1));
+		}
+		return revString;
 	}
 }

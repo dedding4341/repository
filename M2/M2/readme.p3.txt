@@ -1,2 +1,2 @@
 Erika Trejo
-etrejo8
+etrejo8@gatech.edu
