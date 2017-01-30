@@ -30,9 +30,13 @@ public class Person2 {
 	 * @return the modified string
 	 */
 	private String calc(String input) {
-	  //Person 2 put your implementation here
-
-	  return name;
+		String shuffledString = "";
+		int len = input.length();
+		for (int i = len; i > 0 ; i--) {
+				shuffledString = shuffledString
+					+ String.valueOf(input.charAt(i - 1));
+		}
+		return shuffledString;
 	}
 	/**
 	 * Return a string rep of this object
